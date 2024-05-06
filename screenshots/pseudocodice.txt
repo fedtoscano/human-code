@@ -1,0 +1,39 @@
+1. In cinque quanto fa?
+È la somma che fa il totale!
+Il software chiede all’utente per cinque volte di inserire in input un numero.
+Il programma stampa la somma di tutti i numeri inseriti. 
+
+totale = 0
+loop * 5 : (Inserisci un numero -> il numero si somma al totale) 
+stampa totale
+
+2. Pari o dispari?
+Per me, pari non sono!
+L’utente inserisce in input un numero. 
+Se è pari l’applicazione lo stampa.
+Se è dispari stampa il numero successivo. 
+
+input inserisci numero
+se numero/2 = intero allora stampa numero
+se numero/2 /= intero allora stampa numero+1
+
+
+3. La rivincita dei dispari 
+Noi i pari non li vogliamo!
+Il software deve chiedere per 6 volte all’utente di inserire un numero.
+Se il numero inserito è dispari il software lo stampa.
+
+
+totale =0
+
+loop * 6 : (Inserisci un numero -> il numero si somma al totale) 
+se totale%2==1
+stampa totale
+
+4. Numeri da in…cubo
+A tutto c’è un limite?!	
+Il software chiede all’utente un numero N.
+Lo scopo del software è calcolare e stampare il cubo dei primi N numeri
+
+input chiedi numero 5
+loop va da 1 a 5

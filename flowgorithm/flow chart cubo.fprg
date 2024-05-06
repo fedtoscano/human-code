@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="feder"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-06 04:37:34 "/>
+        <attribute name="created" value="ZmVkZXI7REVTS1RPUC1PR0IyRzE0OzIwMjQtMDUtMDY7IjA0OjI4OjEwICI7MjcyOA=="/>
+        <attribute name="edited" value="ZmVkZXI7REVTS1RPUC1PR0IyRzE0OzIwMjQtMDUtMDY7IjA0OjM3OjM0ICI7MTsyODQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totale, numero, loop, cubo" type="Integer" array="False" size=""/>
+            <assign variable="totale" expression="0"/>
+            <input variable="numero"/>
+            <for variable="loop" start="1" end="numero" direction="inc" step="1">
+                <assign variable="cubo" expression="loop*loop*loop"/>
+                <assign variable="totale" expression="cubo"/>
+            </for>
+            <output expression="totale" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
